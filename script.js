@@ -14,12 +14,11 @@ yesButton.addEventListener('click', () => {
   responseMessage.classList.remove('hidden');
 });
 
-// When 'No' is touched or clicked, it moves around randomly
 noButton.addEventListener('touchstart', moveButton);
 noButton.addEventListener('click', moveButton);
 
 function moveButton() {
-  // Add shake effect
+  // Add shake effect to make it harder to click
   noButton.classList.add('shake');
 
   setTimeout(() => {
@@ -40,6 +39,8 @@ function moveButton() {
 }
 
 noButton.addEventListener('click', () => {
-  responseMessage.textContent = "Nope, you can't say no! 😂";
+  // Hide the "No" button and show the playful message
+  noButton.style.display = 'none';
+  responseMessage.textContent = "Puduchurundha Puduchurukunu Sollu, Pudikalanalum Puduchurukunu Sollu!";
   responseMessage.classList.remove('hidden');
 });
