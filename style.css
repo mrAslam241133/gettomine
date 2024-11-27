@@ -1,0 +1,74 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  max-width: 90%;
+  width: 400px; /* Adjust for mobile */
+}
+
+h1 {
+  font-size: 1.8em; /* Smaller font for mobile */
+  color: #ff6b6b;
+}
+
+button {
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #ff3b3b;
+}
+
+.hidden {
+  display: none;
+}
+
+.proposal {
+  margin-top: 20px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Stack buttons on small screens */
+  gap: 10px; /* Add space between buttons */
+}
+
+.options button {
+  margin: 5px;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}
