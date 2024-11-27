@@ -10,7 +10,7 @@ revealButton.addEventListener('click', () => {
 });
 
 yesButton.addEventListener('click', () => {
-  responseMessage.textContent = "Yaro nee Yaro naan Yeno sandhithom Yeno samadhithom Natpo kadhalo Nammai eerthadhu Sariyo thavaro Nammai Saerthadhu Endru Endrum Ondraga Irupom Unakaga Naanum Enakaga Neeyum 💕";
+  responseMessage.textContent = "Yaro nee Yaro naan Yeno sandhithom Yeno samadhithom Natpo kadhalo Nammai eerthadhu Sariyo thavaro Nammai Saerthadhu Endru Endrum Ondraga Irupom Unakaga Naanum Enakaga Neeyum I Love You Thanzia 💕";
   responseMessage.classList.remove('hidden');
 });
 
