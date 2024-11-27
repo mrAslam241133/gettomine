@@ -10,7 +10,7 @@ revealButton.addEventListener('click', () => {
 });
 
 yesButton.addEventListener('click', () => {
-  responseMessage.textContent = "Yay! You've made me the happiest person alive! 💕";
+  responseMessage.textContent = "Heart Connected Successfully 💕";
   responseMessage.classList.remove('hidden');
 });
 
